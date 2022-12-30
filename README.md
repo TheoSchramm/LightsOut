@@ -14,4 +14,4 @@ Um simples joguinho de lógica em Python com interface gráfica, contando com pr
 
 # Atalhos
 - Começar uma nova partida: `Enter`
-- Encerrar a partida atual : `Esc`
+- Encerrar a partida atual: `Esc`
