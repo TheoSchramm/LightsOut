@@ -10,3 +10,8 @@ Um simples joguinho de lógica em Python com interface gráfica, contando com pr
 1. Baixe e execute o arquivo PYw<br>
 3. Insira com quantas lâmpadas você quer jogar e quantas começarão ligadas<br>
 2. Faça com que todas as lâmpadas estejam ligadas ao mesmo tempo!<br>
+
+
+# Atalhos
+- Começar uma nova partida: `Enter`
+- Encerrar a partida atual : `Esc`
