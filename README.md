@@ -5,7 +5,7 @@ Objetivo: faça com que todas as lâmpadas do cenário estejam ligadas ao mesmo 
 
 
 # __📷 Exemplo__
-![](/img_exemplo.gif?raw=true "Exemplo")
+![](/gif_exemplo.gif?raw=true "Exemplo")
 
 
 # __🤔 Como jogar?__
