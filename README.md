@@ -1,5 +1,7 @@
 # __💡 Lights Out__
-Um simples joguinho de lógica em Python com interface gráfica, contando com programação orientada a objetos e validação de dados de entrada. Seu objetivo aqui é de fazer com que todas as lâmpadas do cenário estejam ligadas ao mesmo tempo, o único desafio é que ao ligar uma lâmpada, as adjacentes também receberão sinal, fazendo com que as que estavam desligadas agora estejam ligadas e vice-versa!
+Um simples joguinho de lógica em Python com interface gráfica, contando com programação orientada a objetos e validação de dados de entrada. 
+
+Objetivo: faça com que todas as lâmpadas do cenário estejam ligadas ao mesmo tempo, o único desafio é que ao ligar uma lâmpada, as adjacentes também receberão sinal, fazendo com que as que estavam desligadas agora estejam ligadas e vice-versa!
 
 
 # __📷 Exemplo__
