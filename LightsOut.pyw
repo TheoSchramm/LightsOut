@@ -60,18 +60,18 @@ class MenuWin(tk.Tk):
             return False
     
     def open_game(self):
-        self.newGameWin = GameWin(self, int(self.lamps.get()), int(self.default.get()))
-        self.newGameWin.bind('<Escape>',lambda event: self.newGameWin.destroy())
-        self.newGameWin.focus()
+        GameWin(self, int(self.lamps.get()), int(self.default.get()))
 
 
 class GameWin(Toplevel):
     def __init__(self, root, lamps, default):
         super().__init__(root)
-
+        
         self.title('Lights Out!')
         self.geometry(f'{58 * lamps}x70')
         self.resizable(False, False)
+        self.bind('<Escape>',lambda event: self.destroy())
+        self.focus()
 
         self.dic = {
             True:'■',
@@ -120,5 +120,4 @@ class GameWin(Toplevel):
             self.title('You Win!')
 
 if __name__ == "__main__":
-    App = MenuWin()
-    App.mainloop()
+    MenuWin().mainloop()
