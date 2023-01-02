@@ -14,7 +14,6 @@ class MenuWin(tk.Tk):
         self.lamps = tk.StringVar()
         self.default = tk.StringVar()
         self.lamps.set('5')
-        self.default.set('1')
 
         self.lamp_Label = tk.Label(self,
             text='Total Lamps',
@@ -90,7 +89,8 @@ class GameWin(Toplevel):
                 font = ('Comic Sans MS', 10,'bold'),
                 height = 3,
                 width = 6,
-                command = lambda j=i: self.switch_lamps(self,j)).grid(row = 0, column = i)
+                command = lambda i=i: self.switch_lamps(self,i)).grid(row = 0, column = i)
+            self.bind(f'{i+1}', lambda event, i=i: self.switch_lamps(self,i))
             
     def switch_lamps(self,root,i):
         try:
