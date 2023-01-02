@@ -11,7 +11,7 @@ Objetivo: faça com que todas as lâmpadas do cenário estejam ligadas ao mesmo 
 # __🤔 Como jogar?__
 1. Baixe e execute o arquivo PYw<br>
 3. Insira com quantas lâmpadas você quer jogar e quantas começarão ligadas<br>
-2. Faça com que todas as lâmpadas estejam ligadas ao mesmo tempo!<br>
+2. Usando o clique do seu mouse ou os números do teclado, faça com que todas as lâmpadas estejam ligadas ao mesmo tempo!<br>
 
 
 # __⏳ Atalhos__
