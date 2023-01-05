@@ -90,7 +90,7 @@ class GameWin(Toplevel):
                 height = 3,
                 width = 6,
                 command = lambda i=i: self.switch_lamps(self,i)).grid(row = 0, column = i)
-            self.bind(f'{i+1}', lambda event, i=i: self.switch_lamps(self,i))
+            self.bind(i+1, lambda event, i=i: self.switch_lamps(self,i))
             
     def switch_lamps(self,root,i):
         try:
@@ -111,8 +111,10 @@ class GameWin(Toplevel):
             i['text'] = self.dic[self.lamps_list[index]]
         
         if all(self.lamps_list):
-            for i in self.winfo_children():
-                i.destroy()
+            for index, widget in enumerate(self.winfo_children()):
+                widget.destroy()
+                self.unbind(index+1)
+                
             self.winner_Label = tk.Label(self, 
                 text = f"{round((datetime.now() - self.starting_time).total_seconds(),3)}s",
                 font = ('Comic Sans MS', 18,'bold')).pack(expand=True)
