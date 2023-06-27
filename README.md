@@ -10,17 +10,7 @@
 # __📌 Dependências__
 1. [Python](https://www.python.org/downloads/)
 
-# __🤔 Como jogar?__
-1. Baixe e execute o arquivo PYw
-
-2. Uma janela chamada "Menu" aparecerá, onde o usuário poderá definir o número total de lâmpadas (entre 1 e 10) e o número de lâmpadas que já estão ligadas por padrão
-
-3. Clique no botão "Iniciar" ou pressione a tecla enter.
-
-4. Com a nova janela chamada "Lights Out" clique em uma lâmpada para ligá-la ou desligá-la, ou pressione a tecla numérica correspondente.
-
-5. Quando todas as lâmpadas estiverem ligadas, uma mensagem "Você ganhou" aparecerá com o tempo que levou para vencer.
-
 # __⏳ Atalhos__
 - Começar uma nova partida: `Enter`
 - Encerrar a partida atual: `Esc`
+- Ligar/Desligar lâmpada: `*Número da Lâmpada*`
